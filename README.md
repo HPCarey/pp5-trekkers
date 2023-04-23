@@ -1,100 +1,92 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Epics
+## Authentication
+## Navigation
+## Posts
+## Comments
+## Events
 
-Welcome,
 
-This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# User Stories
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **19th April, 2023**
+### Epic 1: Authentication
 
-## Codeanywhere Reminders
+1. Sign up: As a **user** I can **create an account** so that I can **access all the site features**
+ 
+2. Sign in: As a **user** I can **login** so that I can **access features only available to logged in users **
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+3. Sign out: As a **user** I can **logout** so that I can **exit my account and prevent others from gaining access**
 
-To log into the Heroku toolbelt CLI:
+4. Refreshing access tokens: As a **user** I can **maintain my logged in status for 24 hours** so that I can **easily interact with the app throughout the day**.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Epic 2: Navigation:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+5. As a **user** I can **quickly view my logged in/out status in the navbar** so that I can **decide on my next action**
+ 
+	
+6. Routing: As a **user** I can **view the navbar on every page** so that I can **easily navigate through the site**.
 
----
+7. Conditional Rendering: As a **logged out user** I can **view sign in and sign up options** so that I can **easily tell whether I am logged in and can log in easily if not**.
 
-Happy coding!
+8. Avatar: As a **logged in user** I can **view my profile link and avatar image on the navbar** so that I can **quickly see that I am logged in”
 
-# Getting Started with Create React App
+9. Popular profiles list: As a **logged in user** I can **view other user’s profile names and avatars” so that I can **easily identify and follow other users”
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Epic 3: Posts
+10. Create a post: As a **logged in user** I can **create a new post** so that I can **share my experiences and suggestions for good hikes and walks I’ve been on**.
 
-## Available Scripts
+11. Edit a post: As a **logged in user** I can**edit my post** so that I can **revise my content**
 
-In the project directory, you can run:
+12. Delete a post: As a **logged in user** I can **delete my post** so that I can **remove content I have posted**
 
-### `npm install`
+13. View all posts: As a **user** I can **view all posts** so that I can **see what trails other users have walked and how they were**
 
-Installs the required npm packages.
+14. View post detail: As a **user** I can **view individual post details** so that I can ** view other details and comments about the post**
+ 
 
-### `npm start`
+15.: Like a post: As a **logged in user** I can **like a post** so that I can **quickly show my appreciation for another users content**
 
-Runs the app in the development mode.\
-Open port 3000 to view it in the browser.
+16. View liked posts: As a **logged in user** I can **view liked posts** so that I can **easily find the posts about trails that interested me**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+17. Search posts: As a **user** I can **search posts** so that I can **find a post by author, trail name or location**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Epic 4: Comments
+18. Create a comment: As a **user** I can **leave a comment under a post** so that I can **express my opinion and engage with the content and the community**
 
-### `npm run build`
+19. Comment date: As a **user** I can **see the comment date** so that I can **know how long a go a comment was left**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+20. View comments: As a **user** I can **view other comments** so that I can **see what others have said**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+21. Edit comments: As a **user** I can **edit my comment** so that I can **revise the information**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+22. Delete comments: As a **user** I can **delete my comment** so that I can **remove it from the post**
+ 
 
-### `npm run eject`
+### Epic 5: Profiles
+23. Profile page: As a **user** I can **view another user’s profile page** so that I can **see their posts and their bio**
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+24. User stats: As a **user** I can **see stats via a user profile** so that I can **see how many posts/followers/following/comments they have**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+25. Follow/Unfollow a user: As a **logged in user** I can **follow other users whose content is more relevant or meaningful to me** so that I can **view content filtered by the users I follow**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+26. Edit Profile: As a **user** I can **edit my profile** so that I can **update my personal details**
+ 
+27. Update username and password: As a **user** I can **update my username/password** so that I can **make alterations as needed**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Epic 6: Events
+28. Create events: As a **logged in user** I can **create an event** so that I can **arrange group hikes or walks among the community**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+29. Edit events: As a **logged in user** I can **edit an event** so that I can **amend details that have changed or correct mistakes**
+ 
 
-### Analyzing the Bundle Size
+30. Delete events: As a **logged in user** I can **delete an event that I created** so that I can **remove events that were cancelled**
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+31. Search events: As a **user** I can **search for events using keywords** so that I can **find events near me or by their name**
+ 
+32. View Events: As a **user** I can **see all events** so that I can **browse all of the events occurring**
